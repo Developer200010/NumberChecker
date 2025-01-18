@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(94, 93, 93);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 12px;
+    margin: 3px;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    margin-top: 6px;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+    color: black;
+    background-color: antiquewhite;
+    font-size: 21px;
+}
+
+
+.btn:hover{
+    color: white;
+    background-color: rgb(119, 204, 250);
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    color: rgb(238, 250, 200);
+    border: 2px solid rgb(255, 255, 255);
+}
+.inp{
+    width: 60%;
+    height: 5%;
+    padding: 4px;
+    font-size:25px;
+    margin-top: 3px;
+    border: none;
+}
+
+div > p {
+    margin-top: 10px;
+    font-size: 30px;
+}
